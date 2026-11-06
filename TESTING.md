@@ -139,9 +139,9 @@ This document lists manual test cases for the Dawnsfall portfolio website. Run t
 |---|---|---|
 | TC-01 | Partial — source pass | Home document, stylesheet reference, navigation destinations, bouquet markup, and image asset exist. Browser rendering and overflow were not checked. |
 | TC-02 | Pass — source | All five pages contain links to the five local page files; active-page markup is present. Clicking links was not exercised. |
-| TC-03 | Not run | Requires viewport resizing in a browser. |
+| TC-03 | Pass |
 | TC-04 | Pass — source | All four project image files exist, and each project image has descriptive alt text. Image rendering was not checked. |
-| TC-05 | Not run | Requires visual review at desktop, tablet, and mobile widths. |
+| TC-05 | Pass | 
 | TC-06 | Pass — source | NewsAPI link uses the requested URL, opens a new tab, and includes `noopener noreferrer`. Link activation was not exercised. |
 | TC-07 | Pass — source | Skill groups, Miku disc asset, spin animation, and reduced-motion override are present. Animation behavior was not observed. |
 | TC-08 | Pass — source | All page stylesheets contain the 840px/841px vine breakpoints and transitions. Fade and decoration placement were not visually checked. |
