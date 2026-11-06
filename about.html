@@ -1,10 +1,10 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>About Me | Dawnsfall</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
   </head>
   <body>
     <main>
@@ -18,10 +18,36 @@
         </ul>
       </nav>
       <section>
+<span class="page-vine page-vine--left" aria-hidden="true"></span>
+        <span class="page-vine page-vine--right" aria-hidden="true"></span>
+        <span class="corner-plant corner-plant--outer-empty" aria-hidden="true"><span class="plant-pot"></span></span>
+        <span class="corner-plant corner-plant--inner-flower" aria-hidden="true"><span class="plant-bloom"></span><span class="plant-stem"></span><span class="plant-pot"></span></span>
+        <span class="corner-plant corner-plant--vining" aria-hidden="true"><span class="plant-stem"></span><span class="plant-pot"></span></span>
+        <span class="page-rain" aria-hidden="true"></span>
         <h1>About Me</h1>
-        <p>Hi, I'm Dawnsfall. I'm in college, and I really like to draw.</p>
-        <p>This is where I can share more about myself, what inspires me, and what I'm learning along the way.</p>
+        <div class="about-columns">
+          <div class="about-copy">
+            <p>As an Electrical and Computer engineering student, I am interested in networking, cybersecurity, and electronics.</p>
+            <p>I have a stronger foundation in programming than in electronics. Before attending college, I completed a four-year program in computer science. Outside of electronics and programming, I am passionate about theater and have held stage manager positions for multiple productions.</p>
+            <p>I am also interested in game development, which I plan to explore further. In the future, I hope to work on satellites. I have always been fascinated by space exploration and the technology we create to make it possible.</p>
+          </div>
+          <div class="about-quote">
+            <aside class="quote-box" aria-labelledby="quote-heading" aria-live="polite">
+              <h2 id="quote-heading">Your random quote!</h2>
+              <blockquote id="quote-text">Loading a quote...</blockquote>
+              <p class="quote-author" id="quote-author"></p>
+            </aside>
+            <p class="quote-acknowledgement">These quotes are provided by QuoteSlate API, a free and open-source quote API! Check it out <a href="https://github.com/Musheer360/QuoteSlate" target="_blank" rel="noopener noreferrer">here!</a>.</p>
+          </div>
+        </div>
       </section>
     </main>
+    <script src="about.js" defer></script>
   </body>
 </html>
+
+
+
+
+
+
